@@ -1,0 +1,135 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    backdrop-filter: blur(80px);
+    margin-left: auto;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+header a{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0, 1.38, 0.43, 1.32);
+}
+
+header a:hover{
+    transform: scale(1.2);
+}
+
+body {
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    margin: auto;
+    background-image: url('/images/background.jpg');
+    background-size: 1000px;
+    background-attachment: fixed;
+    animation: fadein 0.5s;
+}
+
+.Block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    height: fit-content + 100px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('images/splatoon3-pattern-02-3840x2160-1.jpg');
+    background-size: contain;   
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.banner{
+    text-align: center;
+    height: 35px;
+    width: 100%;
+}
+
+.text img{
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.Block h1{
+    text-align: center;
+    font-size: 50px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.Block p{
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.BlockPfps div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.one{
+    grid-column: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    grid-row-end: 3;
+    height: auto;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.two{
+    grid-column: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    grid-row-end: 3;
+    height: auto;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.pfp{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Bannepic{
+    margin-top: 50px;
+    width: 1400px;
+    height: auto;
+    border-radius: 10px;
+}

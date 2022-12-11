@@ -1,0 +1,209 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(80px);
+    height: 80px;
+    width: 100%;
+    margin-left: auto;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.sbs{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FunnyNumbers{
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 40%;
+    margin-top: -4%;
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+}
+
+body {
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    margin: auto;
+    background-image: url('/images/background.jpg');
+    background-size: 1000px;
+    background-attachment: fixed;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.Intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('images/splatoon3-pattern-02-3840x2160-1.jpg');
+    background-size: contain;
+}
+
+.Intro p{
+    font-size: 30px;
+    width: 500px;
+}
+
+.ProfilePic{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 100%;
+}
+
+body p{
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.pages{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+header a{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0, 1.38, 0.43, 1.32);
+}
+
+header a:hover{
+    transform: scale(1.2);
+}
+
+.FunnyNumbers h1{
+    font-size: 40px;
+    height: 30px;
+    display: flex;
+    margin-top: auto;
+    justify-content: space-around;
+    color: rgb(238, 238, 238);
+}
+
+.FunnyNumbers p{
+    display: flex;
+    justify-content: space-around;
+    width: 125px;
+    color: rgb(70, 70, 70);
+}
+
+.Socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    color: white;
+}
+
+.FullSocials{
+    width: 40%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    justify-content: space-around;
+    background-attachment: scroll;
+    background-image: url('images/splatoon3-pattern-02-3840x2160-1.jpg');
+    background-size: contain;
+}
+
+.Links{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.Spotify{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-radius: 40px;
+    color: white;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    font-family: jaf-bernino-sans-narrow, sans-serif;
+    background-image: url('images/splatoon3-pattern-02-3840x2160-1.jpg');
+    background-size: contain;
+    margin-bottom: 35px;
+}
+
+.Spotify img{
+    width: 200px;
+    height: 200px;
+    transition: cubic-bezier(0, 1.38, 0.43, 1.32) 0.1s;
+}
+
+.Spotify img:hover{
+    transform: scale(1.1);
+}
+
+.Links div{
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.Links div img{
+    transition: ease-in-out 0.5s;
+}
+
+
+.Links div img:hover{
+    rotate: 360deg;
+}
