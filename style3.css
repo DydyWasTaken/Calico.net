@@ -37,7 +37,7 @@ body {
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     margin: auto;
-    background-image: url('/images/background.jpg');
+    background-image: url('images/background.jpg');
     background-size: 1000px;
     background-attachment: fixed;
     animation: fadein 0.5s;
